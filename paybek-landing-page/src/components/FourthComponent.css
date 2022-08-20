@@ -1,0 +1,86 @@
+.fourthcomponent_wrapper{
+    border: solid red 1px;
+}
+.fourthcomponent_columnwrapper{
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.fourthcomponent_column{
+    padding: 15px 0;
+    border: solid blue 1px;
+    display: flex;
+    flex-direction: column;   
+    justify-content: space-evenly;
+    height: 850px;
+}
+
+.fourthcomponent_bluetext{
+    margin: 0;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #1652F0;
+    }
+    
+.fourthcomponent_blacktext{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+width: 100%;
+height: 72px;
+margin: 0;
+display: flex;
+align-items: center;
+color: #1A1C1F;
+}
+
+.fourthcomponent_column_picture{
+    position: relative;
+    width: 350px;
+    height: 700px;
+    background: url(/src/allDesigns/mobilephone.png);
+    background-repeat: no-repeat;    
+}
+
+.fourthcomponent_picture_text{
+    position: absolute;
+    top: 115px;
+    right: -80px;
+border: solid blue 1px;
+background: #FFFFFF;
+border-radius: 12px;
+border: none;
+padding: 4px 15px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+width: 120px;
+display: flex;
+text-align: center;
+align-items: center;
+color: #1A1C1F;
+}
+
+@media only screen and (max-width: 480px){
+    .fourthcomponent_picture_text{
+        top: 115px;
+        right: 0px;
+        padding: 4px 5px;
+        width: 110px;
+    }
+    .fourthcomponent_bluetext{
+        margin: 0 10px;
+    }
+    .fourthcomponent_blacktext{
+        margin: 20px 10px;
+        }
+}

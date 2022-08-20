@@ -1,0 +1,113 @@
+.firstcomponent_wrapper{
+    border: solid black 1px;
+    min-height: 500px;
+    /* height: 100vh; */
+    z-index: 10;
+    overflow: hidden;
+}
+
+.firstcomponent_headline{
+    position: relative;
+    top: 120px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+text-align: center;
+letter-spacing: -0.02em;
+text-transform: capitalize;
+color: #1A1C1F;
+}
+
+.firstcomponent_description{
+    position: relative;
+    top: 105px;
+    width: 620px;
+    height: 68px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34px;
+    /* or 106% */
+    overflow-wrap: anywhere;
+    text-transform: capitalize;    
+    color: #707484;
+}
+
+.firstcomponent_ctabutton{
+padding: 14px 4px;
+position: relative;
+width: 290px;
+height: 62px;
+margin: 0 auto;
+top: 120px;
+display: flex;
+justify-content: center;
+background: #1652F0;
+border-radius: 5px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 34px;
+/* identical to box height, or 170% */
+text-transform: capitalize;
+color: #FFFFFF;
+border: none;
+}
+
+.firstcomponent_1picture{
+border: solid black 1px;
+position: absolute;
+width: 190px;
+height: 320px;
+left: 54px;
+top: 105.07px;
+background: url(/src/allDesigns/1-new.png);
+background-repeat: no-repeat;
+transform: rotate(-7.06deg);
+}
+
+.firstcomponent_2picture{
+    border: blue solid 1px;
+    position: absolute;
+    width: 180px;
+    height: 300px;
+    left: 297.55px;
+    top: 373px;
+    background: url(/src/allDesigns/5.png);
+    background-repeat: no-repeat;
+    transform: rotate(8.2deg);
+}
+.firstcomponent_3picture{
+    border: red solid 1px;
+position: absolute;
+width: 190px;
+height: 312px;
+left: 1050px;
+top: 100px;
+
+background: url(/src/allDesigns/6.png);
+background-repeat: no-repeat;
+transform: rotate(8.65deg);
+}
+.firstcomponent_4picture{
+    border: solid green 1px;
+    position: absolute;
+width: 198px;
+height: 312px;
+left: 870px;
+top: 370px;
+    background: url(/src/allDesigns/2-1.png);
+    background-repeat: no-repeat;
+    transform: rotate(-12.01deg);
+    
+}
+
+@media only screen and (max-width: 480px){
+    
+}
